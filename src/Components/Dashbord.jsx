@@ -125,12 +125,12 @@ const Dashbord = () => {
                       >
                         Single payout
                       </a>
-                      <a
-                        href="#"
+                      <NavLink
+                        to={"/dashboard/bulkpayout"}
                         className="hover:bg-gray-100 px-3 py-2 rounded-md transition"
                       >
                         Bulk payout
-                      </a>
+                      </NavLink>
                       <a
                         href="#"
                         className="hover:bg-gray-100 px-3 py-2 rounded-md transition"

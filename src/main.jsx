@@ -18,6 +18,7 @@ import Keys from "./Components/Keys";
 import Document from "./Components/Document";
 import Payout from "./Components/Payout";
 import Addmoney from "./Components/Addmoney.jsx";
+import Bulkpayout from "./Components/Bulkpayout.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,6 +28,7 @@ const router = createBrowserRouter(
         <Route index path="summery" element={<Summery />} />
         <Route path="addmoney" element={<Addmoney />} />
         <Route path="payout" element={<Payout />} />
+        <Route path="bulkpayout" element={<Bulkpayout />} />
         <Route path="collection" element={<Collection />} />
         <Route path="verification" element={<Verification />} />
         <Route path="card" element={<Card />} />
